@@ -9,7 +9,7 @@ public class image_extraction {
         String url = "jdbc:mysql://localhost:3306/myDatabase";
         String username = "root";
         String pass = "Kabir@4847";
-        String folder_path = "D:\\JAVA Development\\PreparedStatement\\";
+        String folder_path = "D:\\JAVA Development\\PreparedStatement\\image_handling";
 
         String query = "SELECT image_data FROM image WHERE image_id = ?";
 
@@ -44,6 +44,6 @@ public class image_extraction {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
-        
+
     }
 }
